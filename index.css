@@ -4,8 +4,8 @@ body {
   margin: 0;
 }
 table {
-  width: 400px;
-  height: 400px;
+  width: 380px;
+  height: 380px;
   margin: 50px auto 20px;
   border: 1px solid black;
   border-collapse: collapse;
@@ -114,4 +114,10 @@ td {
 }
 #checkIt {
   background-color: #ffff4d;
+}
+
+@media screen and (max-width: 800px) {
+  .buttons button {
+  	width: 30%;
+  }
 }
